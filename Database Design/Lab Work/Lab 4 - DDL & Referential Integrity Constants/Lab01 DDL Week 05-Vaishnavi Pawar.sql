@@ -1,0 +1,54 @@
+use z511s24vpawar0;
+
+#Exercise 1 A
+
+CREATE TABLE InvestmentCompany(
+ICID CHAR(2) NOT NULL,
+ICName VARCHAR(30) NOT NULL,
+PRIMARY KEY (ICID),
+UNIQUE(ICName)
+);
+
+CREATE TABLE InvcoLocation(
+ICID CHAR(2) NOT NULL,
+ICLocation VARCHAR(30) NOT NULL,
+PRIMARY KEY (ICID, ICLocation),
+FOREIGN KEY (ICID)
+	REFERENCES InvestmentCompany (ICID)
+);
+
+CREATE TABLE MutualFund (
+MFID CHAR(2) NOT NULL,
+MFName VARCHAR(25) NOT NULL,
+MFIncDate DATE NOT NULL,
+ICID CHAR(2) NOT NULL,
+PRIMARY KEY (MFID),
+FOREIGN KEY (ICID)
+	REFERENCES InvestmentCompany (ICID)
+);
+
+CREATE TABLE Security(
+SecurityID CHAR(2) NOT NULL,
+SecurityName VARCHAR(25) NOT NULL,
+SecurityTyoe VARCHAR(25) NOT NULL,
+PRIMARY KEY (SecurityID)
+);
+
+CREATE TABLE Contains(
+MFID CHAR(2) NOT NULL,
+SecurityID CHAR(2) NOT NULL,
+Amount INTEGER NOT NULL,
+PRIMARY KEY (MFID, SecurityID),
+FOREIGN KEY (MFID)
+	REFERENCES MutualFund (ICID),
+FOREIGN KEY (SecurityID)
+	REFERENCES Security (SecurityID)
+);
+
+#Exercise 1 B
+
+DROP TABLE Contains;
+DROP TABLE InvcoLocation;
+DROP TABLE Security;
+DROP TABLE MutualFund;
+DROP TABLE InvestmentCompany;

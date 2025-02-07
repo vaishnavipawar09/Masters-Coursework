@@ -1,0 +1,99 @@
+#Task 1
+#Product 4x4 based on schema_v1.json
+
+
+{
+	"productid": "4X4",
+	"productname": "Dura Boot",
+	"productprice": 90,
+	"vendorname": "Pacific Gear",
+	"categoryname": "Footwear"
+}
+
+
+#Product 5x5 based on schema_v1.json
+
+
+{
+	"productid": "5X5",
+	"productname": "Tiny Tent",
+	"productprice": 150,
+	"vendorname": "Mountain King",
+	"categoryname": "Camping"
+}
+
+
+
+#Task 2
+#Product 4x4 based on schema_v2.json
+
+
+{
+	"productid": "4X4 ",
+	"productname": "Dura Boot",
+	"productprice": 90,
+	"vendor": {
+		"vendorname": "Pacific Gear",
+		"vendoraddress": "Luddy"
+	},
+	"categoryname": "Footwear "
+}
+
+
+#Product 5x5 based on schema_v2.json
+
+
+{
+	"productid": "5X5 ",
+	"productname": "Tiny Tent",
+	"productprice": 150,
+	"vendor": {
+		"vendorname": "Mountain King",
+		"vendoraddress": "Info"
+	},
+	"categoryname": "Camping"
+}
+
+#Task 3
+#Product 4x4 based on schema_v3.json
+
+
+{
+	"productid": "4X4",
+	"productname": "Dura Boot",
+	"productprice": 90,
+	"vendor": {
+		"vendorname": "Pacifica Gear",
+		"vendoraddress": "Luddy"
+	},
+	"categoryname": "Footwear",
+	"transaction": [{
+		"tid": "T444",
+		"noofitems": 1,
+		"customername": "Pam"
+	}, {
+		"tid": "T555",
+		"noofitems": 4,
+		"customername": "Tony"
+	}]
+}
+
+#Product 5x5 based on schema_v3.json
+
+{
+	"productid": "5X5",
+	"productname": "Tiny Tent",
+	"productprice": 150,
+	"vendor": {
+		"vendorname": "Mountain King",
+		"vendoraddress": "Info"
+	},
+	"categoryname": "Camping",
+	"transaction": [{
+		"tid": "T555",
+		"noofitems": 2,
+		"customername": "Tony"
+	}]
+}
+	
+

@@ -1,0 +1,29 @@
+#Lab Task Week 10
+#Part I: Create a JSON file that is equivalent to the related relational tables below.
+
+#1-a) Choose an appropriate data type for the BandPhone field and adding values to the field. 
+#1-b) Choose an appropriate data type for the Instruments field and adding values to the field. 
+
+
+{
+    "BandID": "TF",
+    "BandName": "The Flags",
+    "BandPhone": [
+        "5551234567",
+        "5551238901",
+        "5551232345"
+    ],
+    "Instruments": [
+        {
+            "InsSerialNo": "1234",
+            "InsBrand": "Bender",
+            "InsModel": "Mellowcaster"
+        },
+        {
+            "InsSerialNo": "5678",
+            "InsBrand": "Atlantic Drums",
+            "InsModel": "Jazz Club Pro"
+        }
+    ]
+}
+
