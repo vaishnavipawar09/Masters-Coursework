@@ -2,7 +2,7 @@
 
 📌 Course Overview
 
-This repository contains solutions from the Data Mining coursework, focusing on data analysis, pattern discovery, and predictive modeling. The implementations cover key algorithms and techniques used in data mining.
+This repository contains solutions from the CSCI-B 565 Data Mining coursework, focusing on data analysis, pattern discovery, and predictive modeling. The implementations cover key algorithms and techniques used in data mining.
 
 🏆 Key Topics Covered
 
