@@ -1,0 +1,6 @@
+Node 4: Rank = 0.277451
+Node 0: Rank = 0.260231
+Node 3: Rank = 0.212420
+Node 1: Rank = 0.156173
+Node 2: Rank = 0.093724
+Node 5: Rank = 0.000000
