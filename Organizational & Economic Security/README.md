@@ -1,5 +1,4 @@
-
-##Organizational Information & Economics Security
+**Organizational Information & Economics Security**
 
 📌 Overview
 
@@ -25,7 +24,7 @@ This repository contains coursework and projects related to Organizational Infor
 - Gordon-Loeb Model Implementation: Analyzes optimal security investment decisions.
 - Silk Road Research: Investigates the economic model of illicit online marketplaces.
 
-##⚠️ Disclaimer
+⚠️ Disclaimer
 
 This repository contains academic coursework and research projects for learning purposes.
 
