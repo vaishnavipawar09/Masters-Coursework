@@ -1,5 +1,4 @@
-
-##Organizational Information & Economics Security
+**Organizational Information & Economics Security**
 
 📌 Overview
 
