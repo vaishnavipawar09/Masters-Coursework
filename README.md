@@ -3,19 +3,19 @@
 This repository contains coursework, assignments, and projects completed during my Master's program at Indiana University Bloomington. It includes various subjects related to databases, data mining, big data, security, and cloud computing.
 
 # 📂 Coursework Structure
-- 1. Advanced Database Concepts 
+1. Advanced Database Concepts 
   - SQL assignments covering indexing, query optimization, and relational algebra.
   - Hierarchical data visualization using Python.
-- 2. Database Design 
+2. Database Design 
   - Entity-Relationship (ER) diagrams, normalization, and SQL problem sets.
   - Assignments on Referential Integrity, Physical Modeling, and MongoDB queries.
-- 3. Data Mining 
+3. Data Mining 
   - Exploratory Data Analysis (EDA), fraud detection, and machine learning.
   - Implemented dimensionality reduction, outlier detection, and time series analysis.
-- 4. Management Access & Use of Big Data 
+4. Management Access & Use of Big Data 
   - Hands-on work with PySpark, Google Cloud Platform (GCP), MongoDB, and Docker.
   - AI fairness analysis and distributed computing reports.
-- 5. Organizational & Economic Security 
+5. Organizational & Economic Security 
   - Cybersecurity assignments including password cracking and economic security models.
   - Paper presentations on security risk assessment and dark web research.
 
